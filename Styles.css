@@ -105,14 +105,17 @@ header ul li{
     line-height: 50%;
   }
   li a:hover{
-    color:yellow;
+    color:#e9b528;
+  }
+  .first-menu li a:hover{
+    color:#e9b528;
   }
   header li a{
     text-decoration: none;
     color:white;
   }
 .dropdown-content a:hover{
-    background-color: grey;
+    color: #e9b528;
 }
 .search-bar{
   background-color: white;
@@ -154,8 +157,6 @@ header ul li{
 .dropdown2:hover .dropdown-content2 {display: block;}
 .dropdown3:hover .dropdown-content3 {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}  
-
 .nav-bar{
   background-color: lightgrey;
   width:100%;
@@ -167,7 +168,7 @@ header ul li{
 }
 
 .first-menu{
-  margin:10px 0;
+  margin:10px;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
