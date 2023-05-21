@@ -196,7 +196,7 @@ header ul li{
   display: none;
 }
 @media only screen and (max-width: 852px) {
-  .cs-line,.search input,.first-menu,.Icons,.main-menu{
+  .cs-line,.search,.first-menu,.Icons,.dropdown{
     display: none;
   }
   .nav-icons{
@@ -205,6 +205,13 @@ header ul li{
   .nav-bar{
     display: flex;
     justify-content: center;
+  }
+  header{
+    text-align: center;
+  }
+  .logo{
+    display: flex;
+    margin:auto;
   }
 
   
