@@ -120,7 +120,7 @@ header ul li{
 .search-bar{
   background-color: white;
   width:100%;
-  height:70px;
+  height:80px;
   display: flex;
   justify-content: space-between;
 }
@@ -138,6 +138,7 @@ header ul li{
   width:100%;
   height:70%;
   margin:10px auto;
+  font-size: large;
 }
 .cs-line{
   width:10%;
@@ -146,10 +147,12 @@ header ul li{
 .black{
   background-color: black;
   color: #e9b528;
+  padding: 5px;
 }
 .yellow{
   background-color: #e9b528;
   color: black;
+  padding: 5px;
 }
 
 .dropdown:hover .dropdown-content {display: block;}
